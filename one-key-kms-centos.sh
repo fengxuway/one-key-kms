@@ -31,16 +31,4 @@ echo "Dakkidaze <gioku@docomo.net.cn>"
 echo "This script will automatically download and compile KMS Server program for you."
 echo "For more information, please visit https://github.com/Wind4/vlmcsd"
 echo "Scrpit written by Dakkidaze <gioku@docomo.net.cn>"
-echo "READY TO START?"
-read -p "y/n:" choice
-case $choice in
-	"y")
-	start
-	;;
-	"n")
-	exit 0;
-	;;
-	*)
-	echo "Please enter y or n!"
-	;;
-esac
+start
